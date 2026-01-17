@@ -1,0 +1,63 @@
+.add{
+  width: 70%;
+  margin-left: max(5vw, 25px);
+  margin-top: 50px;
+  color: #6d6d6d;
+  font-size: 16px;
+}
+
+/* form spacing */
+.add form{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* image upload */
+.add-img-upload img{
+  width: 120px;
+  cursor: pointer;
+}
+
+/* name & description */
+.add-product-name,
+.add-product-description{
+  width: max(30%, 320px);
+}
+
+.add-product-name input,
+.add-product-description textarea{
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+   width: max(30%, 320px);
+}
+
+/* category + price row */
+.add-category-price{
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+/* select & price input */
+.add-category-price select,
+.add-category-price input{
+  max-width: 120px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* ADD button (main fix) */
+.add-btn{
+  margin-top: 20px;      /* 👈 photo jaisa gap */
+  max-width: 120px;
+  border: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  align-self: first flex-start;
+   
+}
